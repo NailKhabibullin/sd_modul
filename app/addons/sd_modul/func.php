@@ -2,7 +2,7 @@
 
 use Tygh\Languages\Languages;
 
-defined('BOOTSTRAP') or die('Access denied')
+defined('BOOTSTRAP') or die('Access denied');
 
 function fn_age_calculation($birthday) {
     if (!empty($_POST['guest_data']['birthday'])) {

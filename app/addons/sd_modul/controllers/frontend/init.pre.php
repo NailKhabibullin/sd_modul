@@ -30,7 +30,7 @@ if ($mode === 'modul') {
         $age = fn_age_calculation($birthday);
             if ($age >=18) {
                 SetCookie('approve', 1);
-                fn_print_die ($_COOKIE);
+                //fn_print_die ($_COOKIE);
                 } else {
                     SetCookie('approve', 0);
                     $suffix = '.denied';
