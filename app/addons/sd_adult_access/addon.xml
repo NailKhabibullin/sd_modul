@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <addon scheme="3.0">
-    <id>sd_modul</id>
+    <id>sd_adult_access</id>
     <version>4.14.3.0</version>
     <priority>1200</priority>
     <position>10</position>

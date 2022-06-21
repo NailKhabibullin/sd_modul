@@ -1,0 +1,26 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::sd_adult_access"
+msgid "Simtech Development: Adult access"
+msgstr "Simtech Development: Adult access"
+
+msgctxt "Addons::description::sd_adult_access"
+msgid "Restriction of access for persons under the age of 18 y.o."
+msgstr "Restriction of access for persons under the age of 18 y.o."
+
+msgctxt "Languages::sd_adult_access"
+msgid "Adult access"
+msgstr "Adult access"
+
+
+msgctxt "Languages::access_need_age_verification"
+msgid "You should specify your date of birth to access the website"
+msgstr "You should specify your date of birth to access the website"
+
+msgctxt "Languages::access_denied"
+msgid "You are under 18 y.o. Access denied!"
+msgstr "You are under 18 y.o. Access denied!"

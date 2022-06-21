@@ -1,7 +1,5 @@
 <?php
 
-use Tygh\Languages\Languages;
-
 defined('BOOTSTRAP') or die('Access denied');
 
 function fn_age_calculation($birthday) {

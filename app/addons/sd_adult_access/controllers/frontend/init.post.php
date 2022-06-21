@@ -15,39 +15,23 @@
 use Tygh\Registry;
 
 defined('BOOTSTRAP') or die('Access denied');
-/*
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {*/
-    //$suffix = '';
 
-    if (!isset($_COOKIE['approve']) && !($mode === 'modul')) {
-        return [CONTROLLER_STATUS_OK, 'index.modul'];
+    if (!isset($_COOKIE['approve']) && !($mode === 'adult_access')) {
+        return [CONTROLLER_STATUS_OK, 'index.adult_access'];
     } elseif (isset($_COOKIE['approve']) && $_COOKIE['approve'] == 0 && !($mode === 'denied')) {
         return [CONTROLLER_STATUS_OK, 'index.denied'];
     }
-//}
 
-if ($mode === 'modul') {
+if ($mode === 'adult_access') {
 
     if (!empty($_POST)) {
         $age = fn_age_calculation($birthday);
-        //fn_print_die ($age);
             if ($age >=18) {
                 SetCookie('approve', 1);
-                //fn_print_die ($_COOKIE);
                 return [CONTROLLER_STATUS_REDIRECT, 'index.index'];
                 } else {
                     SetCookie('approve', 0);
-                    //$suffix = '.denied';
-                    //fn_print_die ($_COOKIE);
                     return [CONTROLLER_STATUS_REDIRECT, 'index.denied'];
                 }
         }
 }
-
-/*if (!($mode === 'modul')) {
-
-}
-
-if (!($mode === 'denied')) {
-
-}*/
