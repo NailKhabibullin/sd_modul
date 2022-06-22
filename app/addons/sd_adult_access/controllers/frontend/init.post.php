@@ -13,6 +13,7 @@
 ****************************************************************************/
 
 use Tygh\Registry;
+use Tygh\Languages\Languages;
 
 defined('BOOTSTRAP') or die('Access denied');
 

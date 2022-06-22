@@ -12,15 +12,18 @@ msgctxt "Addons::description::sd_adult_access"
 msgid "Restriction of access for persons under the age of 18 y.o."
 msgstr "Restriction of access for persons under the age of 18 y.o."
 
-msgctxt "Languages::sd_adult_access"
-msgid "Adult access"
-msgstr "Adult access"
-
-
 msgctxt "Languages::access_need_age_verification"
 msgid "You should specify your date of birth to access the website"
 msgstr "You should specify your date of birth to access the website"
 
-msgctxt "Languages::access_denied"
+msgctxt "Languages::your_access_denied"
 msgid "You are under 18 y.o. Access denied!"
 msgstr "You are under 18 y.o. Access denied!"
+
+msgctxt "Languages::birthday_date"
+msgid "Birthday"
+msgstr "Birthday"
+
+msgctxt "Languages::push_confirm"
+msgid "Confirm"
+msgstr "Confirm"
